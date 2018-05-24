@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Seguros</string>
+    <string name="sign_in_text">Registrarse</string>
+    <string name="login_button_text">Ingresar</string>
+    <string name="add_accept_button">Aceptar</string>
+    <string name="add_cancelar_button">Cancelar</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="clima"
+            type="sitis.org.climaapp.data.models.Clima"/>
+    </data>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:context=".ui.fragments.CityFragment">
+
+        <TableRow>
+            <TextView
+                android:text="@string/fragment_temperature_label"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                tools:text ="2000"
+                android:text="@{clima.temperature}"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/fragment_humidity_label"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                tools:text ="2000"
+                android:text="@{clima.humidity}"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/fragment_pressure_label"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                tools:text ="2000"
+                android:text="@{clima.temperature}"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/fragment_forecast_label"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                tools:text ="2000"
+                android:text="@{clima.temperature}"/>
+        </TableRow>
+
+    </TableLayout>
+</layout>

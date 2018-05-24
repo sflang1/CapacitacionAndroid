@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hint_number1">Number 1</string>
+    <string name="hint_number2">Number 2</string>
+    <string name="sum_button_text">Add</string>
+    <string name="res_button_text">Substract</string>
+    <string name="mult_button_text">Mul</string>
+    <string name="div_button_text">Divide</string>
+</resources>
